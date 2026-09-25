@@ -242,6 +242,9 @@
     <string name="agent_complete_notification_background_multi_body">%1$d 个后台任务已完成</string>
     <string name="notification_channel_terminal_service">终端服务</string>
     <string name="notification_channel_terminal_service_desc">后台终端任务通知</string>
+    <string name="notification_keepalive_persistent_sessions">后台保活 · 终端任务: %1$d</string>
+    <string name="notification_keepalive_running_sessions">运行中的终端任务: %1$d</string>
+    <string name="notification_keepalive_enabled">后台保活已开启</string>
     <string name="notification_channel_agent_complete">Agent 完成通知</string>
     <string name="notification_channel_agent_complete_desc">Agent 在后台完成任务时弹出的通知</string>
     <string name="settings_app_permissions">软件权限</string>
@@ -1301,6 +1304,10 @@
 
     <!-- Terminal Settings & Themes -->
     <string name="terminal_settings_title">终端设置</string>
+    <string name="terminal_tools_title">终端工具</string>
+    <string name="terminal_tools_env_section">环境工具</string>
+    <string name="terminal_tools_run_installer">重新运行环境安装</string>
+    <string name="terminal_tools_run_installer_desc">在新标签中打开依赖安装工具，按场景安装 Node.js、Python、Java、Go 等开发依赖</string>
     <string name="terminal_theme_title">配色主题</string>
     <string name="terminal_font_size_title">字体大小</string>
     <string name="terminal_cursor_style_title">光标样式</string>
